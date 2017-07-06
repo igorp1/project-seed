@@ -1,0 +1,26 @@
+<md-card>
+  <h3>API demo</h3>
+  <p *ngIf="!auth.isAuthenticated()">
+    Log in to call a private (secured) server endpoint.
+  </p>
+
+  <br>
+
+  <button type="button" md-raised-button (click)="ping()">
+      Call Public
+  </button>
+
+  <button type="button" md-raised-button (click)="securedPing()" *ngIf="auth.isAuthenticated()">
+      Call Private
+  </button>
+
+  <br><br>
+  <pre *ngIf="message">{{ message }}</pre>
+
+</md-card>
+
+
+
+
+
+
