@@ -22,10 +22,11 @@ npm start
 ### #more
 
 Here's some helpful links:
-[Angular](https://angular.io)
-[ng-cli](https://cli.angular.io)
-[MAterial](https://material.angular.io)
-[Auth0](https://auth0.com)
+
+  - [Angular](https://angular.io)
+  - [ng-cli](https://cli.angular.io)
+  - [Material](https://material.angular.io)
+  - [Auth0](https://auth0.com)
 
 `eof`
 > july 2017
